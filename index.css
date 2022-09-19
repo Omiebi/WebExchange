@@ -1,214 +1,230 @@
-                body {
-                    margin: 0;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 14px;
-                }
-                
-                .left-container {
-                    /* padding: 24px, 24px, 0px, 0px;  */
-                    width: 40%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background: transparent linear-gradient(129deg, #2733C4 0%, #9F19D1 100%) 0% 0% no-repeat padding-box;
-                    height: 100vh;
-                    float: left;
-                }
-                
-                .right-container {
-                    width: 60%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background: black;
-                    height: 100vh;
-                }
-                
-                .vectorContainer {
-                    /* display: inline-flex; */
-                    justify-content: center;
-                    align-items: center;
-                    /* background-color: red; */
-                    height: 80%;
-                    width: 70%;
-                    /* float: left; */
-                    display: flex;
-                    object-fit: contain;
-                    text-indent: 100px;
-                    margin-left: 70px;
-                    /* margin: 80px; */
-                }
-                
-                .wrap-right {
-                    width: 60%;
-                    display: flex;
-                    justify-content: left;
-                    background-color: #020717;
-                }
-                /* .floatleft {
-    float: left;
-    width: 40%;
-    background: transparent linear-gradient(129deg, #2733C4 0%, #9F19D1 100%) 0% 0% no-repeat padding-box;
-    height: 100vh;
-} */
-                
-                .floatright {
-                    float: right;
-                    background-color: #020717;
-                    height: 100vh;
-                    width: 60%;
-                }
-                
-                 :root {
-                    --pri-color: #2833C4;
-                    --body-bg-left: #2833C4;
-                    --body-bg-right: #020717;
-                }
-                
-                a {
-                    text-decoration: none;
-                }
-                /* nav {
-                    width: 90%;
-                    height: 60px;
-                    background-color: red;
-                    border-radius: 100px;
-                    position: fixed;
-                    top: 20px;
-                    left: 32px;
-                    right: 32px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                } */
-                /* img {
-                    width: 30%;
-                    height: 80%;
-                    display: flex;
-                    align-self: center;
-                } */
-                
-                span {
-                    color: #2733C4;
-                    color: #fff;
-                }
-                
-                .logo-wrapper {
-                    width: 100px;
-                    height: 20px;
-                    left: 20px;
-                    top: -145px;
-                    position: relative;
-                }
-                
-                .nav-btn-btn {
-                    color: #fff;
-                    justify-self: right;
-                    /* margin-right: 5px; */
-                    justify-content: right;
-                    text-align: right;
-                }
-                
-                .logo {
-                    justify-self: end;
-                }
-                
-                .contact-form {
-                    color: #fff;
-                    margin-left: 90px;
-                }
-                
-                input {
-                    background: transparent;
-                    position: relative;
-                    border: 1px solid #808080;
-                    border-radius: 8px;
-                    height: 50px;
-                }
-                
-                .email-form {
-                    /* box-sizing: border-box; */
-                    color: #fff;
-                    border-color: #808080;
-                    /* border-radius: 50px; */
-                    /* border: none; */
-                    /* outline: none; */
-                    text-align: left;
-                    padding-left: 8px;
-                    width: 256px;
-                    font-size: 9px;
-                    left: ;
-                }
-                
-                .login1 {
-                    color: #fff;
-                    width: 100px;
-                    height: 20px;
-                    left: 300px;
-                    position: relative;
-                    top: -150px;
-                    white-space: nowrap;
-                    margin-top: 100px;
-                    /* position: absolute; */
-                    /* bottom: 300px; */
-                    /* right: 8px; */
-                }
-                
-                .btn-btn {
-                    margin-left: 5px;
-                    color: #ffffff;
-                    width: 140px;
-                    background-color: #0065FF;
-                }
-                
-                .signup {
-                    color: #808080;
-                }
-                
-                .span1 {
-                    color: #0065FF;
-                }
-                /* .menu-wrapper {
-                    display: flex;
-                    float: right;
-                    justify-self: end;
-                    color: #fff;
-                } */
-                /* .menu-wrapper a {
-                    display: flex;
-                    color: #fff;
-                    font-weight: 600;
-                   
-                } */
-                /* .container-div {
-                    display: flex;
-                    position: fixed;
-                    width: 40%;
-                    height: 80%;
-                    margin: 60px;
-                    position: absolute;
-                    top: 25%;
-                }
-                
-                .contact-form {
-                    display: flex;
-                    flex-direction: row;
-                }
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
 
-                .con
-                
-                .full {
-                    border: 1px solid rgb(97, 97, 52);
-                    border-radius: 50px;
-                    margin-bottom: 30px;
-                    text-align: center;
-                }
-                
-                .contact-right {
-                    width: 50%;
-                    border: 1px solid rgb(97, 97, 52);
-                    border-radius: 30px;
-                    padding: 0px 7px 0px 20px;
-                } */
+.row {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.left-container {
+    display: flex;
+    height: 100vh;
+    flex: 0 0 40%;
+    background-image: linear-gradient(129deg, #2733C4 0%, #9F19D1 100%);
+    position: relative;
+}
+
+.left-container::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("./resources/Layer\ 2\ jpeg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fontawesome {
+    color: #fff;
+    background-color: #fff;
+}
+
+.right-container {
+    background: black;
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.right-container .column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-container .column {
+    padding: 2rem;
+}
+
+.left-container .column .image-wrap {
+    width: 6rem;
+    height: 2rem;
+}
+
+.left-container .column .image-wrap .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .email-form input {
+    width: 100%;
+}
+
+.vectorContainer {
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    object-fit: contain;
+    text-indent: 100px;
+    margin-left: 70px;
+}
+
+.wrap-right {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    background-color: #020717;
+}
+
+.floatright {
+    float: right;
+    background-color: #020717;
+    height: 100vh;
+    width: 60%;
+}
+
+ :root {
+    --pri-color: #2833C4;
+    --body-bg-left: #2833C4;
+    --body-bg-right: #020717;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #2733C4;
+    color: #fff;
+}
+
+.nav-btn-btn {
+    color: #fff;
+    justify-self: right;
+    justify-content: right;
+    text-align: right;
+}
+
+.logo {
+    justify-self: end;
+}
+
+.contact-form {
+    color: #fff;
+    align-self: center;
+}
+
+input {
+    background: transparent;
+    position: relative;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.email-form {
+    color: #fff;
+    border-color: #808080;
+    text-align: left;
+    padding-left: 8px;
+    font-size: 9px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.login1 {
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.btn-btn {
+    margin-left: 5px;
+    color: #ffffff;
+    width: 140px;
+    background-color: #0065FF;
+}
+
+.signup {
+    color: #808080;
+}
+
+.span1 {
+    color: #0065FF;
+}
+
+
+/* .InputWithIcon input[type=text] {
+     padding-left: 40px;
+ }
+ 
+ .InputWithIcon {
+     position: relative;
+     /* bottom: 2 rem; */
+
+
+/* margin-top: -50%;
+ position: bottom; */
+
+
+}
+
+/* .InputWithIcon i {
+    position: absolute; */
+
+/* left: 0; */
+
+/* bottom: 100px; */
+
+/* padding: 9px 8px;
+    bottom: 2rem;
+    margin-top: -50%;
+    margin-bottom: 100px; */
+
+}
+*/
+/* media query for 59em*/
+@media only screen and (max-width: 60em) {
+    .row {
+        flex-direction: column;
+        display: flex;
+    }
+    .left-container {
+        flex: unset;
+        display: none;
+    }
+    .right-container {
+        flex: unset;
+        width: 100%;
+        height: 100%;
+    }
+    .right-container .column {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 38em) {
+    .right-container .column {
+        width: 90%;
+    }
+}
