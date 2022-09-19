@@ -16,7 +16,7 @@ body {
     display: flex;
     height: 100vh;
     flex: 0 0 40%;
-    background-image: linear-gradient(129deg, #2733C4 0%, #9F19D1 100%);
+    background-image: linear-gradient(140deg, #2733C4 0%, #9F19D1);
     position: relative;
 }
 
@@ -125,15 +125,15 @@ span {
     justify-content: right;
     text-align: right; */
 
-
-}
 .logo {
     justify-self: end;
 }
+
 .contact-form {
     color: #fff;
     align-self: center;
 }
+
 input {
     background: transparent;
     position: relative;
@@ -141,6 +141,7 @@ input {
     border-radius: 8px;
     height: 50px;
 }
+
 .email-form {
     color: #fff;
     border-color: #808080;
@@ -149,13 +150,21 @@ input {
     font-size: 9px;
     margin-bottom: 1rem;
     width: 100%;
+    position: relative;
+    /* text-indent: 3rem; */
 }
+
+.email-form .fa-regular {
+    text-indent: 3rem;
+}
+
 .login1 {
     color: #fff;
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
+
 .btn-btn {
     margin-left: 5px;
     color: #ffffff;
@@ -163,17 +172,61 @@ input {
     background-color: #0065FF;
     text-align: center;
 }
+
 .signup {
     color: #808080;
 }
+
 .span1 {
     color: #0065FF;
 }
+
 .input-field {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
+
+.fa-regular {
+    position: absolute;
+    top: 3.4rem;
+    left: -1.7rem;
+    color: #808080;
+    /* text-indent: 2rem; */
+}
+
+
+/* .fa-light {
+    position: absolute;
+    top: 3.4rem;
+    right: 2rem; */
+
+.fa-sharp {
+    position: absolute;
+    right: 2rem;
+    bottom: -1.7rem;
+    top: 3.4rem;
+    right: 2rems;
+    color: #808080;
+}
+
+
+/* .email-word {
+    margin-left: 1rem;
+    left: 5rem;
+} */
+
+
+/* .fa-light {
+    position: absolute;
+    top: 3.4rem;
+    left: -1.7rem;
+} */
+
+.email-form input {
+    text-indent: 1.5rem;
+}
+
 
 /* .InputWithIcon input[type=text] {
      padding-left: 40px;
@@ -183,26 +236,29 @@ input {
      position: relative;
      /* bottom: 2 rem; */
 
+
 /* margin-top: -50%;
  position: bottom; */
 
-}
 
 /* .InputWithIcon i {
     position: absolute; */
 
+
 /* left: 0; */
 
+
 /* bottom: 100px; */
+
 
 /* padding: 9px 8px;
     bottom: 2rem;
     margin-top: -50%;
     margin-bottom: 100px; */
 
-}
-*/
+
 /* media query for 59em*/
+
 @media only screen and (max-width: 60em) {
     .row {
         flex-direction: column;
@@ -221,6 +277,7 @@ input {
         width: 70%;
     }
 }
+
 @media only screen and (max-width: 38em) {
     .right-container .column {
         width: 90%;
