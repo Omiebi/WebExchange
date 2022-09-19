@@ -118,22 +118,22 @@ span {
     color: #fff;
 }
 
-.nav-btn-btn {
+
+/* .nav-btn-btn {
     color: #fff;
     justify-self: right;
     justify-content: right;
-    text-align: right;
-}
+    text-align: right; */
 
+
+}
 .logo {
     justify-self: end;
 }
-
 .contact-form {
     color: #fff;
     align-self: center;
 }
-
 input {
     background: transparent;
     position: relative;
@@ -141,7 +141,6 @@ input {
     border-radius: 8px;
     height: 50px;
 }
-
 .email-form {
     color: #fff;
     border-color: #808080;
@@ -151,29 +150,30 @@ input {
     margin-bottom: 1rem;
     width: 100%;
 }
-
 .login1 {
     color: #fff;
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
-
 .btn-btn {
     margin-left: 5px;
     color: #ffffff;
     width: 140px;
     background-color: #0065FF;
+    text-align: center;
 }
-
 .signup {
     color: #808080;
 }
-
 .span1 {
     color: #0065FF;
 }
-
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
 
 /* .InputWithIcon input[type=text] {
      padding-left: 40px;
@@ -183,10 +183,8 @@ input {
      position: relative;
      /* bottom: 2 rem; */
 
-
 /* margin-top: -50%;
  position: bottom; */
-
 
 }
 
